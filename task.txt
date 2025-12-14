@@ -1,0 +1,34 @@
+
+Створіть pod з nginx у своєму локальному кластері.
+
+Створіть сервіс для nginx, який відкриє порт 80 nginx для доступу з локальної мережі.
+
+Переконайтесь, що ви можете побачити стандартну вебсторінку nginx на своєму комп’ютері.
+
+
+
+
+
+ENG:
+
+
+
+Create pod with nginx in your local cluster
+
+Create service for nginx which will expose port 80 of nginx to your local network
+
+Check that you can see nginx default web page on your PC
+
+
+
+
+
+Формат здачі ДЗ:
+
+1. Код створення кластера
+
+2. Код усіх необхідних маніфестів
+
+3. Скріни виконання завдання
+
+4. Скрін дефолтної nginx сторінки в вашому кластері
