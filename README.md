@@ -50,7 +50,8 @@
 
 Виконайте у WSL:
 ```bash
-kubectl port-forward pod/nginx-pod 8080:80
+kubectl port-forward pod/nginx-pod 8080:80 (не найкращій варіант!!!)
+kubectl port-forward svc/nginx-service 8080:8080
 ```
 
 - Ця команда відкриє локальний порт 8080 і направить трафік напряму у pod на порт 80.

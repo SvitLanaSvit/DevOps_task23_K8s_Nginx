@@ -12,6 +12,7 @@ do
   sleep 2
 done
 
+kubectl apply -f nginx-config-map.yaml
 kubectl apply -f nginx-pod.yaml
 kubectl apply -f nginx-service.yaml
 
